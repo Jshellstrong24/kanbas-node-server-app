@@ -10,7 +10,7 @@ import session from "express-session";
 import "dotenv/config";
 
 
-const CONNECTION_STRING = 'mongodb+srv://giuseppi:supersecretpassword@cluster0.bgsyx4m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const CONNECTION_STRING = 'mongodb+srv://giuseppi:supersecretpassword@cluster0.rdtw8pa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 mongoose.connect(CONNECTION_STRING);
 
 const app = express()
